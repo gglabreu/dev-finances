@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevFinance$</title>
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="https://lh3.googleusercontent.com/proxy/Du1ZWHovq3wxxtB-Qva4ONtJg-qC9GTZ-AYNdqucVWXFsDErRx-v3VE4iaMPN2K6lUh4KtdT0A7pN-7-QyDQMJ-1JAUIXNHi7g7E6vNciNSS_u81YF-SwBrXeL0"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logo DevFinances" />
+    </header>
+
+    <main class="container">
+      <section id="balance">
+        <h2 class="sr-only">Balanço</h2>
+        <div class="card">
+          <h3>Entradas</h3>
+          <p>R$ 5.0000,00</p>
+        </div>
+        <div class="card">
+          <h3>Saídas</h3>
+          <p>R$ 2.000,00</p>
+        </div>
+        <div class="card total">
+          <h3>Total</h3>
+          <p>R$ 3.000,00</p>
+        </div>
+      </section>
+
+      <section id="transaction">
+        <h2 class="sr-only">Transações</h2>
+        <table id="data-table">
+          <thead>
+            <tr>
+              <th>Descrição</th>
+              <th>Valor</th>
+              <th>Data</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="description">Luz</td>
+              <td class="expense">- R$ 500,00</td>
+              <td class="date">03/11/2021</td>
+            </tr>
+
+            <tr>
+              <td class="description">Salário</td>
+              <td class="income">R$ 5000,00</td>
+              <td class="date">10/11/2021</td>
+            </tr>
+
+            <tr>
+              <td class="description">Internet</td>
+              <td class="expense">- R$ 200,00</td>
+              <td class="date">18/11/2021</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Projeto desenvolvido por Guilherme Abreu na Maratona Discover #1, da
+        RocketSeat.
+      </p>
+    </footer>
+  </body>
+</html>

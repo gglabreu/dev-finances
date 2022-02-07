@@ -1,4 +1,4 @@
-/* Global ==========================*/
+/* Global ===================== */
 :root {
   --dark-blue: #363f5f;
 }
@@ -14,20 +14,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-}
-
 .container {
   width: min(90vw, 800px);
   margin: auto;
 }
-/* Titles ===========================*/
 
+/* Titles ===================== */
 h2 {
   margin-top: 3.2rem;
   margin-bottom: 0.8rem;
@@ -36,8 +28,7 @@ h2 {
   font-weight: normal;
 }
 
-/* Header ==========================*/
-
+/* Header ===================== */
 header {
   background: #2d4a22;
   padding: 2rem 0 10rem;
@@ -49,8 +40,7 @@ header {
   font-weight: 100;
 }
 
-/* Main: Balance ====================*/
-
+/* Balance ===================== */
 #balance {
   margin-top: -8rem;
 }
@@ -60,8 +50,7 @@ header {
   margin-top: 0;
 }
 
-/* Cards ===========================*/
-
+/* Cards ===================== */
 .card {
   background: white;
   padding: 1.5rem 2rem;
@@ -89,11 +78,10 @@ header {
   color: white;
 }
 
-/* Table ============================*/
-
+/* Table ===================== */
 #data-table {
   width: 100%;
-  border-spacing: 0 0 0.5rem;
+  border-spacing: 0 0.5rem;
   color: #969cb3;
 }
 
@@ -111,7 +99,7 @@ table thead th {
   text-align: left;
 }
 
-table tr {
+table tbody tr {
   opacity: 0.7;
 }
 
@@ -136,11 +124,16 @@ td.expense {
   color: #e92929;
 }
 
-/* Footer ===========================*/
-
+/* Footer ===================== */
 footer {
   background: #2d4a22;
-  padding: 4.5rem 0;
-  margin-top: 2rem;
+  padding: 2rem 0;
+  margin-top: 5rem;
+  justify-content: center;
   text-align: center;
+}
+
+footer .github {
+  color: #fff;
+  text-decoration: none;
 }

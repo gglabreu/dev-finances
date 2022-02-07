@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevFinance$</title>
-    <link
-      rel="icon"
-      type="image/jpg"
-      href="https://lh3.googleusercontent.com/proxy/Du1ZWHovq3wxxtB-Qva4ONtJg-qC9GTZ-AYNdqucVWXFsDErRx-v3VE4iaMPN2K6lUh4KtdT0A7pN-7-QyDQMJ-1JAUIXNHi7g7E6vNciNSS_u81YF-SwBrXeL0"
-    />
+    <title>dev.finance$</title>
+
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -19,20 +14,23 @@
   </head>
   <body>
     <header>
-      <img src="./assets/logo.svg" alt="Logo DevFinances" />
+      <h1 id="logo">dev.finance$</h1>
     </header>
 
     <main class="container">
       <section id="balance">
-        <h2 class="sr-only">Balanço</h2>
+        <h2>Balanço</h2>
+
         <div class="card">
           <h3>Entradas</h3>
-          <p>R$ 5.0000,00</p>
+          <p>R$ 5.000,00</p>
         </div>
+
         <div class="card">
           <h3>Saídas</h3>
           <p>R$ 2.000,00</p>
         </div>
+
         <div class="card total">
           <h3>Total</h3>
           <p>R$ 3.000,00</p>
@@ -40,7 +38,7 @@
       </section>
 
       <section id="transaction">
-        <h2 class="sr-only">Transações</h2>
+        <h2>Transações</h2>
         <table id="data-table">
           <thead>
             <tr>
@@ -53,30 +51,23 @@
             <tr>
               <td class="description">Luz</td>
               <td class="expense">- R$ 500,00</td>
-              <td class="date">03/11/2021</td>
+              <td class="date">23/01/2021</td>
             </tr>
-
             <tr>
-              <td class="description">Salário</td>
-              <td class="income">R$ 5000,00</td>
-              <td class="date">10/11/2021</td>
+              <td class="description">Criação website</td>
+              <td class="income">R$ 5.000,00</td>
+              <td class="date">23/01/2021</td>
             </tr>
-
             <tr>
               <td class="description">Internet</td>
               <td class="expense">- R$ 200,00</td>
-              <td class="date">18/11/2021</td>
+              <td class="date">23/01/2021</td>
             </tr>
           </tbody>
         </table>
       </section>
     </main>
 
-    <footer>
-      <p>
-        Projeto desenvolvido por Guilherme Abreu na Maratona Discover #1, da
-        RocketSeat.
-      </p>
-    </footer>
+    <footer><p>Desenvolvido por <a href="https://github.com/gglabreu" class="github">Guilherme Abreu</a> </br> durante a Matarona Discover 01</p></footer>
   </body>
 </html>
